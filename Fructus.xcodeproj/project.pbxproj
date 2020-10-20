@@ -11,6 +11,10 @@
 		6941AD35253EDAB800AC6FCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6941AD34253EDAB800AC6FCC /* ContentView.swift */; };
 		6941AD37253EDAC100AC6FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6941AD36253EDAC100AC6FCC /* Assets.xcassets */; };
 		6941AD3A253EDAC100AC6FCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6941AD39253EDAC100AC6FCC /* Preview Assets.xcassets */; };
+		6941AD48253EE38500AC6FCC /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6941AD47253EE38500AC6FCC /* FruitCardView.swift */; };
+		6941AD4C253F0D2E00AC6FCC /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6941AD4B253F0D2E00AC6FCC /* StartButtonView.swift */; };
+		6941AD4F253F220600AC6FCC /* OnboardingVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6941AD4E253F220600AC6FCC /* OnboardingVIew.swift */; };
+		6941AD53253F248400AC6FCC /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6941AD52253F248400AC6FCC /* FruitModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		6941AD36253EDAC100AC6FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6941AD39253EDAC100AC6FCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6941AD3B253EDAC100AC6FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6941AD47253EE38500AC6FCC /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
+		6941AD4B253F0D2E00AC6FCC /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		6941AD4E253F220600AC6FCC /* OnboardingVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVIew.swift; sourceTree = "<group>"; };
+		6941AD52253F248400AC6FCC /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,9 @@
 		6941AD31253EDAB800AC6FCC /* Fructus */ = {
 			isa = PBXGroup;
 			children = (
-				6941AD32253EDAB800AC6FCC /* FructusApp.swift */,
-				6941AD34253EDAB800AC6FCC /* ContentView.swift */,
+				6941AD51253F247200AC6FCC /* Model */,
+				6941AD46253EE35800AC6FCC /* View */,
+				6941AD44253EE32B00AC6FCC /* App */,
 				6941AD36253EDAC100AC6FCC /* Assets.xcassets */,
 				6941AD3B253EDAC100AC6FCC /* Info.plist */,
 				6941AD38253EDAC100AC6FCC /* Preview Content */,
@@ -67,6 +76,33 @@
 				6941AD39253EDAC100AC6FCC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6941AD44253EE32B00AC6FCC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6941AD32253EDAB800AC6FCC /* FructusApp.swift */,
+				6941AD34253EDAB800AC6FCC /* ContentView.swift */,
+				6941AD4E253F220600AC6FCC /* OnboardingVIew.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6941AD46253EE35800AC6FCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6941AD47253EE38500AC6FCC /* FruitCardView.swift */,
+				6941AD4B253F0D2E00AC6FCC /* StartButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6941AD51253F247200AC6FCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6941AD52253F248400AC6FCC /* FruitModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6941AD48253EE38500AC6FCC /* FruitCardView.swift in Sources */,
+				6941AD4C253F0D2E00AC6FCC /* StartButtonView.swift in Sources */,
+				6941AD4F253F220600AC6FCC /* OnboardingVIew.swift in Sources */,
 				6941AD35253EDAB800AC6FCC /* ContentView.swift in Sources */,
+				6941AD53253F248400AC6FCC /* FruitModel.swift in Sources */,
 				6941AD33253EDAB800AC6FCC /* FructusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
