@@ -16,6 +16,7 @@
 		6941AD4F253F220600AC6FCC /* OnboardingVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6941AD4E253F220600AC6FCC /* OnboardingVIew.swift */; };
 		6941AD53253F248400AC6FCC /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6941AD52253F248400AC6FCC /* FruitModel.swift */; };
 		6941AD57253F265600AC6FCC /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6941AD56253F265600AC6FCC /* FruitData.swift */; };
+		6941AD5B253F311200AC6FCC /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6941AD5A253F311200AC6FCC /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		6941AD4E253F220600AC6FCC /* OnboardingVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVIew.swift; sourceTree = "<group>"; };
 		6941AD52253F248400AC6FCC /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		6941AD56253F265600AC6FCC /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		6941AD5A253F311200AC6FCC /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				6941AD47253EE38500AC6FCC /* FruitCardView.swift */,
 				6941AD4B253F0D2E00AC6FCC /* StartButtonView.swift */,
+				6941AD5A253F311200AC6FCC /* FruitRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				6941AD57253F265600AC6FCC /* FruitData.swift in Sources */,
 				6941AD48253EE38500AC6FCC /* FruitCardView.swift in Sources */,
+				6941AD5B253F311200AC6FCC /* FruitRowView.swift in Sources */,
 				6941AD4C253F0D2E00AC6FCC /* StartButtonView.swift in Sources */,
 				6941AD4F253F220600AC6FCC /* OnboardingVIew.swift in Sources */,
 				6941AD35253EDAB800AC6FCC /* ContentView.swift in Sources */,
