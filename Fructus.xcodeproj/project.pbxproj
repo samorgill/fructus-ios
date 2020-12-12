@@ -21,6 +21,7 @@
 		697DE43E2584CC530057FE6E /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697DE43D2584CC530057FE6E /* FruitHeaderView.swift */; };
 		697DE4412584D0D20057FE6E /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697DE4402584D0D20057FE6E /* SourceLinkView.swift */; };
 		697DE4442584D6F00057FE6E /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697DE4432584D6F00057FE6E /* FruitNutrientsView.swift */; };
+		697DE447258513FF0057FE6E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697DE446258513FF0057FE6E /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		697DE43D2584CC530057FE6E /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		697DE4402584D0D20057FE6E /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		697DE4432584D6F00057FE6E /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		697DE446258513FF0057FE6E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				6941AD34253EDAB800AC6FCC /* ContentView.swift */,
 				6941AD4E253F220600AC6FCC /* OnboardingVIew.swift */,
 				697DE43A2584C5300057FE6E /* FruitDetailView.swift */,
+				697DE446258513FF0057FE6E /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				6941AD35253EDAB800AC6FCC /* ContentView.swift in Sources */,
 				6941AD53253F248400AC6FCC /* FruitModel.swift in Sources */,
 				6941AD33253EDAB800AC6FCC /* FructusApp.swift in Sources */,
+				697DE447258513FF0057FE6E /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
